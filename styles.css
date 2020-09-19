@@ -39,8 +39,51 @@ header {
 }
 nav li {
   display: inline-block;
-    margin-left: 10px;
+  margin-left: 10px;
 }
 nav li:nth-child(1) {
   margin-left: 0;
+}
+.banner-d {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.banner-font {
+    color: #fff;
+    font-size: 1.3em;
+}
+.banner-backImg {
+  background-image: url(images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.banner-d img {
+  width: 200px;
+  height: 200px;
+}
+.ban-content-d {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-d .a-border {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.banner-d .a-disloc {
+  margin: 0 10px;
+  padding: 15px;
+}
+.banner-d .a-font {
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+.banner-d a:link {
+  color: white;
+}
+.banner-d .m-tb {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
