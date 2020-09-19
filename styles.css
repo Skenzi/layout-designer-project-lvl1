@@ -87,3 +87,33 @@ nav li:nth-child(1) {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+.info-1, .info-2, .info-3 {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.info-2, .info-3 {
+    align-items: center;
+}
+.info-1 .info-disCont1 {
+ width: 30%;
+ padding: 60px 0;
+}
+.info-2 .info-disCont2 {
+ padding: 60px 0;
+ width: 45%;
+}
+.info-3 .info-disCont3 {
+ padding: 60px 0;
+ width: 45%;
+}
+.info-bc {
+  background-color: #f7f7f7;
+}
+.info-2 img {
+  width: 30%;
+}
+.info-3 img {
+  width: 30%;
+}
