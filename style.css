@@ -15,6 +15,21 @@ h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+.pdg-60-0 {
+  padding: 60px 0;
+}
+.pdg-20-10 {
+  padding: 20px 10px;
+}
+.float-r {
+  float: right;
+}
+.form-pdg-10px {
+ padding: 10px;
+}
+.grey-bc {
+  background-color: #f7f7f7;
+}
 /* Стили для ссылок */
 .a-border {
   border: 2px solid white;
@@ -72,8 +87,6 @@ header {
 }
 /* Стили баннера */
 .banner-disloc {
-  padding-top: 60px;
-  padding-bottom: 60px;
   width: 100%;
 }
 .banner-font {
@@ -95,8 +108,7 @@ header {
   text-align: center;
 }
 .banner-disloc .m-tb {
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin: 10px 0 30px 0;
 }
 /* Стили основного контента */
 .main-info {
@@ -110,14 +122,9 @@ header {
 }
 .main-info .info-disloc-cont-withoutimg {
  width: 30%;
- padding: 60px 0;
 }
 .main-info .info-disloc-cont-withimg {
- padding: 60px 0;
  width: 45%;
-}
-.grey-bc {
-  background-color: #f7f7f7;
 }
 .main-info-withimg img {
   width: 30%;
@@ -126,7 +133,6 @@ header {
 .form-disloc {
   width: 50%;
   margin: 0 auto;
-  padding: 60px 0;
 }
 .form-color {
   color: #09d3ac;
@@ -144,10 +150,7 @@ header {
   font-weight: bold;
 }
 .form-cont-disloc {
-  margin: 10px auto;
-}
-.form-pdg-10px {
- padding: 10px;
+  margin: 10px 0;
 }
 .button-style {
   font-size: 1em;
@@ -165,15 +168,9 @@ header {
   height: 25px;
   width: 295px;
 }
-.float-r {
-  float: right;
-}
 .dropped-menu {
   width: 300px;
   height: 35px;
-}
-.pdg-20-10 {
-  padding: 20px 10px;
 }
 .formHeader-margin {
   margin-left: 120px;
@@ -192,9 +189,6 @@ header {
   vertical-align: middle;
   margin-right: 20px;
 
-}
-.foot-flexcontainer div {
-  padding: 60px 0;
 }
 .logo-text {
   font-weight: bold;
