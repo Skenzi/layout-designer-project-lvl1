@@ -145,22 +145,16 @@ header {
   font-size: 1.3em;
   font-weight: bold;
 }
+.form-header-margin {
+  margin-left: 120px;
+  font-size: 2.5em;
+}
 .font-legend {
   font-size: 1.7em;
   font-weight: bold;
 }
 .form-cont-disloc {
   margin: 10px 0;
-}
-.button-style {
-  font-size: 1em;
-  font-weight: bold;
-  border: 2px solid #09d3ac;
-  border-radius: 10px;
-  padding: 15px;
-  color: #09d3ac;
-  width: 200px;
-  margin-top: 10px;
 }
 .form-databorder {
   border: 1px solid black;
@@ -172,9 +166,15 @@ header {
   width: 300px;
   height: 35px;
 }
-.form-header-margin {
-  margin-left: 120px;
-  font-size: 2.5em;
+.button-style {
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #09d3ac;
+  border-radius: 10px;
+  padding: 15px;
+  color: #09d3ac;
+  width: 200px;
+  margin-top: 10px;
 }
 /* Стили для footer */
 .foot-flexcontainer {
@@ -183,19 +183,18 @@ header {
   align-items: center;
   background-color: #303846;
 }
-.foot-logo img {
-  width: 45px;
-  height: 45px;
-  vertical-align: middle;
-  margin-right: 20px;
-
-}
 .logo-text {
   font-weight: bold;
   font-size: 1em;
 }
 .foot-font-color {
   color: white;
+}
+.foot-logo img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  margin-right: 20px;
 }
 .list-pdg li {
   padding: 3px;
