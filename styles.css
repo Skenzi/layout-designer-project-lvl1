@@ -1,3 +1,4 @@
+/* Основные стили*/
 body {
   font-family: sans-serif;
 }
@@ -16,6 +17,7 @@ h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+/* Стили для header */
 header {
   position: fixed;
   background-color: #fff;
@@ -44,6 +46,7 @@ nav li {
 nav li:nth-child(1) {
   margin-left: 0;
 }
+/* Стили баннера */
 .banner-d {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -86,6 +89,7 @@ nav li:nth-child(1) {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+/* Стили основного контента */
 .info-1, .info-2, .info-3 {
   width: 1000px;
   display: flex;
@@ -116,6 +120,7 @@ nav li:nth-child(1) {
 .info-3 img {
   width: 30%;
 }
+/* Стили для формы */
 .form-disloc {
   width: 50%;
   margin: 0 auto;
@@ -171,4 +176,31 @@ nav li:nth-child(1) {
 .zagolov-margin {
   margin-left: 120px;
   font-size: 2.5em;
+}
+/* Стили для footer */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #303846;
+}
+.foot-logo img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  margin-right: 20px;
+
+}
+.flex-container div {
+  padding: 60px 0;
+}
+.logo-text {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.foot-font {
+  color: white;
+}
+.centri li {
+  padding: 3px;
 }
