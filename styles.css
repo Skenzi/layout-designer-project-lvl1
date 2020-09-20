@@ -195,11 +195,14 @@ nav li:nth-child(1) {
 }
 .logo-text {
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
 }
-.foot-font {
+.foot-fontColor {
   color: white;
 }
 .listPdg li {
   padding: 3px;
+}
+.foot-fontColor h3 {
+  font-size: 1em;
 }
