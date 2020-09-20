@@ -50,7 +50,7 @@ header {
 .header-bcolor {
   background-color: #fff;
 }
-.logo-d img {
+.logo-disloc img {
   width: 32px;
   height: 32px;
   vertical-align: middle;
@@ -59,11 +59,11 @@ header {
 .nav-menu a:link {
   color: black;
 }
-nav li {
+.header-font li {
   display: inline-block;
   margin-left: 10px;
 }
-nav li:nth-child(1) {
+.header-font li:nth-child(1) {
   margin-left: 0;
 }
 /* Стили основного блока */
@@ -71,7 +71,7 @@ nav li:nth-child(1) {
   margin-top: 70px;
 }
 /* Стили баннера */
-.banner-d {
+.banner-disloc {
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
@@ -80,21 +80,21 @@ nav li:nth-child(1) {
     color: #fff;
     font-size: 1.3em;
 }
-.banner-backImg {
+.banner-backimg {
   background-image: url(images/banner.png);
   background-position: center;
   background-size: cover;
 }
-.banner-d img {
+.banner-disloc img {
   width: 200px;
   height: 200px;
 }
-.ban-content-d {
+.ban-content-disloc {
   width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
-.banner-d .m-tb {
+.banner-disloc .m-tb {
   margin-top: 10px;
   margin-bottom: 30px;
 }
@@ -105,21 +105,21 @@ nav li:nth-child(1) {
   justify-content: space-between;
   margin: 0 auto;
 }
-.main-infoWithImg {
+.main-info-withimg {
     align-items: center;
 }
-.main-info .info-disContWithoutImg {
+.main-info .info-disloc-cont-withoutimg {
  width: 30%;
  padding: 60px 0;
 }
-.main-info .info-disContWithImg {
+.main-info .info-disloc-cont-withimg {
  padding: 60px 0;
  width: 45%;
 }
 .grey-bc {
   background-color: #f7f7f7;
 }
-.main-infoWithImg img {
+.main-info-withimg img {
   width: 30%;
 }
 /* Стили для формы */
@@ -143,7 +143,7 @@ nav li:nth-child(1) {
   font-size: 1.7em;
   font-weight: bold;
 }
-.form-contentDisloc {
+.form-cont-disloc {
   margin: 10px auto;
 }
 .form-pdg-10px {
@@ -159,7 +159,7 @@ nav li:nth-child(1) {
   width: 200px;
   margin-top: 10px;
 }
-.form-dataBorder {
+.form-databorder {
   border: 1px solid black;
   border-radius: 5px;
   height: 25px;
@@ -180,7 +180,7 @@ nav li:nth-child(1) {
   font-size: 2.5em;
 }
 /* Стили для footer */
-.foot-flexContainer {
+.foot-flexcontainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -193,19 +193,19 @@ nav li:nth-child(1) {
   margin-right: 20px;
 
 }
-.foot-flexContainer div {
+.foot-flexcontainer div {
   padding: 60px 0;
 }
 .logo-text {
   font-weight: bold;
   font-size: 1em;
 }
-.foot-fontColor {
+.foot-font-color {
   color: white;
 }
-.listPdg li {
+.list-pdg li {
   padding: 3px;
 }
-.foot-fontColor h3 {
+.foot-font-color h3 {
   font-size: 1em;
 }

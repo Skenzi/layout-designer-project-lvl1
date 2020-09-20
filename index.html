@@ -8,49 +8,51 @@
   <body>
 <!-- Раздел с лого и меню -->
 <header class="header-bcolor">
-  <section class="logo-d header-font">
+  <section class="logo-disloc header-font">
     <img src="images/logo.svg" alt="logo">
     Лунное море
   </section>
   <section class="nav-menu">
     <nav class="header-font">
-      <li><a href="#Advantages">Преимущества</a></li>
-      <li><a href="#About">О ЖК "Лунное море"</a></li>
-      <li><a href="#Place">Места для отдыха</a></li>
+      <ul>
+        <li><a href="#advantages">Преимущества</a></li>
+        <li><a href="#about">О ЖК "Лунное море"</a></li>
+        <li><a href="#place">Места для отдыха</a></li>
+      </ul>
     </nav>
   </section>
 </header>
 <!-- Раздел с баннером и основным контентом -->
 <div class="container-mt">
  <main>
-  <section class="banner-d banner-backImg banner-font">
-    <div class="ban-content-d">
+  <section class="banner-disloc banner-backimg banner-font">
+    <div class="ban-content-disloc">
       <img src="images/logo.svg" alt="logo">
       <h1>ЖК "Лунное море"</h1>
       <p class="m-tb">
         Место, откуда не хочется улетать
       </p>
       <p>
-        <a href="#Bronir" class="a-disloc a-border a-font">Забронировать</a>
+        <a href="#bronir" class="a-disloc a-border a-font">Забронировать</a>
       </p>
     </div>
   </section>
   <!-- Начало основного контента и первый блок -->
   <section class="main-content">
-   <div class="main-info" id="Advantages">
-    <div class="info-disContWithoutImg">
+   <div class="main-info" id="advantages">
+    <div class="info-disloc-cont-withoutimg">
       <h2>Уникальный вид</h2>
       <p>
       Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.
       </p>
     </div>
-    <div class="info-disContWithoutImg">
+    <div class="info-disloc-cont-withoutimg">
       <h2>Инфраструктура</h2>
        <p>
         Прекрасные дороги рядом с домом. Много мест для прогулки. Всего в 200 км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.
        </p>
     </div>
-    <div class="info-disContWithoutImg">
+    <div class="info-disloc-cont-withoutimg">
       <h2>Близость к Москве</h2>
        <p>
         При небольшой цене мы располагаемся близко к МКАД. Всего 384 000 километров и вы в самом сердце России.
@@ -59,8 +61,8 @@
    </div>
    <!-- Второй блок -->
   <div class="grey-bc">
-    <div class="main-info main-infoWithImg" id="About">
-      <div class="info-disContWithImg">
+    <div class="main-info main-info-withimg" id="about">
+      <div class="info-disloc-cont-withimg">
         <h2>О ЖК «Лунное море»</h2>
         <p>
         Все чаще жители Москвы предпочитают загородный дом городской квартире, к тому же связь с мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и обратно.
@@ -71,9 +73,9 @@
     </div>
   </div>
   <!-- Третий блок -->
-    <div class="main-info main-infoWithImg" id="Place">
+    <div class="main-info main-info-withimg" id="place">
       <img src="images/moon-2.jpg" alt="astronaut">
-      <div class="info-disContWithImg">
+      <div class="info-disloc-cont-withimg">
         <h2>Места для отдыха</h2>
         <p>
         Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
@@ -83,16 +85,16 @@
     </div>
   </section>
   <!-- Раздел с формой -->
-  <section class="grey-bc" id="Bronir">
+  <section class="grey-bc" id="bronir">
     <div class="form-disloc">
       <div class="form">
-        <h2 class="formHeader-margin">Оставьте заявку сегодня!</h2>
-        <fieldset class="form-color form-contentDisloc">
+        <h2 class="form-header-margin">Оставьте заявку сегодня!</h2>
+        <fieldset class="form-color form-cont-disloc">
           <legend class="font-legend">Параметры квартиры</legend>
           <div class="pdg-20-10">
             <div class="form-pdg-10px">
               <span class="font-color font-style">Количество комнат:</span>
-              <select name="rooms" class="dropped-menu form-dataBorder float-r">
+              <select name="rooms" class="dropped-menu form-databorder float-r">
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -101,7 +103,7 @@
             </div>
         <div class="form-pdg-10px">
           <span class="font-color font-style">Отделка:</span>
-          <select name="otdelka" row="30" class="dropped-menu form-dataBorder float-r">
+          <select name="repair" class="dropped-menu form-databorder float-r">
             <option>Без отделки</option>
             <option>Черновая</option>
             <option>Современный ремонт</option>
@@ -109,20 +111,20 @@
         </div>
       </div>
         </fieldset>
-        <fieldset class="form-color form-contentDisloc">
+        <fieldset class="form-color form-cont-disloc">
           <legend class="font-legend">Контактная информация</legend>
           <div class="pdg-20-10">
            <div class="form-pdg-10px">
             <span class="font-color font-style">Имя:</span>
-            <input type="text" name="name" size="30" class="form-dataBorder float-r">
+            <input type="text" name="name" size="30" class="form-databorder float-r">
            </div>
            <div class="form-pdg-10px">
           <span class="font-color font-style">Телефон:</span>
-            <input type="tel" name="tel" size="30" class="form-dataBorder float-r">
+            <input type="tel" name="tel" size="30" class="form-databorder float-r">
            </div>
            <div class="form-pdg-10px">
           <span class="font-color font-style">E-mail:</span>
-            <input type="email" name="email" size="30" class="form-dataBorder float-r">
+            <input type="email" name="email" size="30" class="form-databorder float-r">
            </div>
           </div>
         </fieldset>
@@ -132,21 +134,21 @@
   </section>
 </main>
 <!-- Раздел с доп. и юр. информацией -->
-<footer class="foot-flexContainer">
-    <div class="foot-logo foot-fontColor">
+<footer class="foot-flexcontainer">
+    <div class="foot-logo foot-font-color">
       <img src="images/logo.svg" alt="logo"><span class="logo-text">ЖК "Лунное море"</span>
       <p><small>&copy; 2032</small></p>
     </div>
-    <div class="foot-fontColor">
+    <div class="foot-font-color">
       <h3>Проектная документация</h3>
       <ul class="listPdg">
         <li><a href="#">Скачать</a></li>
         <li><a href="#">Посмотреть на сайте</a></li>
       </ul>
     </div>
-    <div class="foot-fontColor">
+    <div class="foot-font-color">
       <h3>О застройщике</h3>
-      <ul class="listPdg">
+      <ul class="list-pdg">
         <li><a href="#">Отзывы</a></li>
         <li><a href="#">Сайт компании</a></li>
        </ul>
