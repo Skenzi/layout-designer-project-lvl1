@@ -56,6 +56,9 @@ header {
   vertical-align: middle;
   margin-right: 10px;
 }
+.nav-menu a:link {
+  color: black;
+}
 nav li {
   display: inline-block;
   margin-left: 10px;
