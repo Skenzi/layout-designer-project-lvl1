@@ -1,8 +1,6 @@
 /* Основные стили*/
 body {
   font-family: sans-serif;
-}
-main {
   font-size: 16px;
   color: #303846;
   line-height: 1.5;
@@ -17,10 +15,25 @@ h2 {
   margin-top: 0;
   margin-bottom: 0.5em;
 }
+/* Стили для ссылок */
+.a-border {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.a-disloc {
+  padding: 15px;
+}
+.a-font {
+  font-size: 1em;
+  font-weight: bold;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
 /* Стили для header */
 header {
   position: fixed;
-  background-color: #fff;
   height: 60px;
   padding: 5px 20px;
   top: 0;
@@ -30,8 +43,12 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.container-mt {
-  margin-top: 70px;
+.header-font {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.header-bcolor {
+  background-color: #fff;
 }
 .logo-d img {
   width: 32px;
@@ -45,6 +62,10 @@ nav li {
 }
 nav li:nth-child(1) {
   margin-left: 0;
+}
+/* Стили основного блока */
+.container-mt {
+  margin-top: 70px;
 }
 /* Стили баннера */
 .banner-d {
@@ -70,54 +91,32 @@ nav li:nth-child(1) {
   margin: 0 auto;
   text-align: center;
 }
-.a-border {
-  border: 2px solid white;
-  border-radius: 10px;
-}
-.a-disloc {
-  padding: 15px;
-}
-.a-font {
-  font-size: 1em;
-  font-weight: bold;
-  text-decoration: none;
-}
-.banner-d a:link {
-  color: white;
-}
 .banner-d .m-tb {
   margin-top: 10px;
   margin-bottom: 30px;
 }
 /* Стили основного контента */
-.info-1, .info-2, .info-3 {
+.main-info {
   width: 1000px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
-.info-2, .info-3 {
+.main-infoWithImg {
     align-items: center;
 }
-.info-1 .info-disCont1 {
+.main-info .info-disContWithoutImg {
  width: 30%;
  padding: 60px 0;
 }
-.info-2 .info-disCont2 {
- padding: 60px 0;
- width: 45%;
-}
-.info-3 .info-disCont3 {
+.main-info .info-disContWithImg {
  padding: 60px 0;
  width: 45%;
 }
 .grey-bc {
   background-color: #f7f7f7;
 }
-.info-2 img {
-  width: 30%;
-}
-.info-3 img {
+.main-infoWithImg img {
   width: 30%;
 }
 /* Стили для формы */
@@ -144,7 +143,7 @@ nav li:nth-child(1) {
 .form-contentDisloc {
   margin: 10px auto;
 }
-.flex-cont {
+.form-pdg-10px {
  padding: 10px;
 }
 .button-style {
@@ -157,7 +156,7 @@ nav li:nth-child(1) {
   width: 200px;
   margin-top: 10px;
 }
-.form-border {
+.form-dataBorder {
   border: 1px solid black;
   border-radius: 5px;
   height: 25px;
@@ -170,15 +169,15 @@ nav li:nth-child(1) {
   width: 300px;
   height: 35px;
 }
-.padding {
+.pdg-20-10 {
   padding: 20px 10px;
 }
-.zagolov-margin {
+.formHeader-margin {
   margin-left: 120px;
   font-size: 2.5em;
 }
 /* Стили для footer */
-.flex-container {
+.foot-flexContainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -191,7 +190,7 @@ nav li:nth-child(1) {
   margin-right: 20px;
 
 }
-.flex-container div {
+.foot-flexContainer div {
   padding: 60px 0;
 }
 .logo-text {
@@ -201,6 +200,6 @@ nav li:nth-child(1) {
 .foot-font {
   color: white;
 }
-.centri li {
+.listPdg li {
   padding: 3px;
 }
