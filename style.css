@@ -1,0 +1,208 @@
+/* Основные стили*/
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #303846;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h2 {
+  font-size: 1.8em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+/* Стили для ссылок */
+.a-border {
+  border: 2px solid white;
+  border-radius: 10px;
+}
+.a-disloc {
+  padding: 15px;
+}
+.a-font {
+  font-size: 1em;
+  font-weight: bold;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+/* Стили для header */
+header {
+  position: fixed;
+  height: 60px;
+  padding: 5px 20px;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-font {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.header-bcolor {
+  background-color: #fff;
+}
+.logo-d img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+}
+nav li:nth-child(1) {
+  margin-left: 0;
+}
+/* Стили основного блока */
+.container-mt {
+  margin-top: 70px;
+}
+/* Стили баннера */
+.banner-d {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.banner-font {
+    color: #fff;
+    font-size: 1.3em;
+}
+.banner-backImg {
+  background-image: url(images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+.banner-d img {
+  width: 200px;
+  height: 200px;
+}
+.ban-content-d {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner-d .m-tb {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+/* Стили основного контента */
+.main-info {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.main-infoWithImg {
+    align-items: center;
+}
+.main-info .info-disContWithoutImg {
+ width: 30%;
+ padding: 60px 0;
+}
+.main-info .info-disContWithImg {
+ padding: 60px 0;
+ width: 45%;
+}
+.grey-bc {
+  background-color: #f7f7f7;
+}
+.main-infoWithImg img {
+  width: 30%;
+}
+/* Стили для формы */
+.form-disloc {
+  width: 50%;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+.form-color {
+  color: #09d3ac;
+  border-color: #09d3ac;
+}
+.font-color {
+  color: black;
+}
+.font-style {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+.font-legend {
+  font-size: 1.7em;
+  font-weight: bold;
+}
+.form-contentDisloc {
+  margin: 10px auto;
+}
+.form-pdg-10px {
+ padding: 10px;
+}
+.button-style {
+  font-size: 1em;
+  font-weight: bold;
+  border: 2px solid #09d3ac;
+  border-radius: 10px;
+  padding: 15px;
+  color: #09d3ac;
+  width: 200px;
+  margin-top: 10px;
+}
+.form-dataBorder {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 25px;
+  width: 295px;
+}
+.float-r {
+  float: right;
+}
+.dropped-menu {
+  width: 300px;
+  height: 35px;
+}
+.pdg-20-10 {
+  padding: 20px 10px;
+}
+.formHeader-margin {
+  margin-left: 120px;
+  font-size: 2.5em;
+}
+/* Стили для footer */
+.foot-flexContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #303846;
+}
+.foot-logo img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+  margin-right: 20px;
+
+}
+.foot-flexContainer div {
+  padding: 60px 0;
+}
+.logo-text {
+  font-weight: bold;
+  font-size: 1em;
+}
+.foot-fontColor {
+  color: white;
+}
+.listPdg li {
+  padding: 3px;
+}
+.foot-fontColor h3 {
+  font-size: 1em;
+}
