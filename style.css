@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   color: #303846;
   line-height: 1.5;
+  margin: 0;
 }
 h1 {
   font-size: 3em;
@@ -27,9 +28,14 @@ h2 {
 .form-pdg-10px {
  padding: 10px;
 }
-.grey-bc {
+/*.grey-bc {
+  background-color: #f7f7f7;
+  padding: 0 260px;
+}*/
+main section:nth-child(2n+3) {
   background-color: #f7f7f7;
 }
+
 /* Стили для ссылок */
 .a-border {
   border: 2px solid white;
@@ -46,8 +52,9 @@ a:link {
   color: white;
   text-decoration: none;
 }
+
 /* Стили для header */
-header {
+.main-header-disloc {
   position: fixed;
   height: 60px;
   padding: 5px 20px;
@@ -81,13 +88,20 @@ header {
 .header-font li:nth-child(1) {
   margin-left: 0;
 }
+
 /* Стили основного блока */
 .container-mt {
   margin-top: 70px;
 }
+
 /* Стили баннера */
 .banner-disloc {
   width: 100%;
+}
+.ban-content-disloc {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
 }
 .banner-font {
     color: #fff;
@@ -102,14 +116,10 @@ header {
   width: 200px;
   height: 200px;
 }
-.ban-content-disloc {
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
 .banner-disloc .m-tb {
   margin: 10px 0 30px 0;
 }
+
 /* Стили основного контента */
 .main-info {
   width: 1000px;
@@ -129,6 +139,7 @@ header {
 .main-info-withimg img {
   width: 30%;
 }
+
 /* Стили для формы */
 .form-disloc {
   width: 50%;
@@ -146,8 +157,8 @@ header {
   font-weight: bold;
 }
 .form-header-margin {
-  margin-left: 120px;
-  font-size: 2.5em;
+  margin-left: 80px;
+  font-size: 1.8em;
 }
 .font-legend {
   font-size: 1.7em;
@@ -157,13 +168,13 @@ header {
   margin: 10px 0;
 }
 .form-databorder {
-  border: 1px solid black;
+  border: 1px solid #ccc;
   border-radius: 5px;
   height: 25px;
-  width: 295px;
+  width: 195px;
 }
 .dropped-menu {
-  width: 300px;
+  width: 200px;
   height: 35px;
 }
 .button-style {
@@ -175,13 +186,19 @@ header {
   color: #09d3ac;
   width: 200px;
   margin-top: 10px;
+  background-color: transparent;
 }
+
 /* Стили для footer */
 .foot-flexcontainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #303846;
+  width: 1000px;
+  margin: 0 auto;
+}
+.dark-bc {
+    background-color: #303846;
 }
 .logo-text {
   font-weight: bold;

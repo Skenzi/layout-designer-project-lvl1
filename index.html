@@ -7,7 +7,7 @@
   </head>
   <body>
 <!-- Раздел с лого и меню -->
-<header class="header-bcolor">
+<header class="main-header-disloc header-bcolor">
   <section class="logo-disloc header-font">
     <img src="images/logo.svg" alt="logo">
     Лунное море
@@ -38,8 +38,9 @@
     </div>
   </section>
   <!-- Начало основного контента и первый блок -->
-  <section>
-   <div class="main-info" id="advantages">
+
+  <section id="advantages">
+   <div class="main-info">
     <div class="info-disloc-cont-withoutimg pdg-60-0">
       <h2>Уникальный вид</h2>
       <p>
@@ -59,9 +60,11 @@
        </p>
     </div>
    </div>
+  </section>
+
    <!-- Второй блок -->
-  <div class="grey-bc">
-    <div class="main-info main-info-withimg" id="about">
+ <section id="about">
+    <div class="main-info main-info-withimg">
       <div class="info-disloc-cont-withimg pdg-60-0">
         <h2>О ЖК «Лунное море»</h2>
         <p>
@@ -71,21 +74,24 @@
       </div>
       <img src="images/moon-1.jpg" alt="moon">
     </div>
-  </div>
+ </section>
+
   <!-- Третий блок -->
-    <div class="main-info main-info-withimg" id="place">
+  <section id="place">
+    <div  class="main-info main-info-withimg">
       <img src="images/moon-2.jpg" alt="astronaut">
-      <div class="info-disloc-cont-withimg pdg-60-0">
+       <div class="info-disloc-cont-withimg pdg-60-0">
         <h2>Места для отдыха</h2>
         <p>
         Луна обладает всеми условиями для комфортного отдыха от большого города. В вашем распоряжении 22 моря и 18 гор. Самое ближайшее кольцо гор всего в 200 километров от вашей квартиры.
         Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».
         </p>
-      </div>
+       </div>
     </div>
   </section>
+
   <!-- Раздел с формой -->
-  <section class="grey-bc" id="bronir">
+  <section id="bronir">
     <div class="form-disloc pdg-60-0">
         <h2 class="form-header-margin">Оставьте заявку сегодня!</h2>
         <fieldset class="form-color form-cont-disloc">
@@ -129,9 +135,12 @@
         </fieldset>
         <button class="button-style">Отправить</button>
     </div>
-  </section>
+   </section>
+ </div>
 </main>
+
 <!-- Раздел с доп. и юр. информацией -->
+<section class="dark-bc">
 <footer class="foot-flexcontainer">
     <div class="foot-logo foot-font-color pdg-60-0">
       <img src="images/logo.svg" alt="logo"><span class="logo-text">ЖК "Лунное море"</span>
@@ -139,7 +148,7 @@
     </div>
     <div class="foot-font-color pdg-60-0">
       <h3>Проектная документация</h3>
-      <ul class="listPdg">
+      <ul class="list-pdg">
         <li><a href="#">Скачать</a></li>
         <li><a href="#">Посмотреть на сайте</a></li>
       </ul>
@@ -152,6 +161,5 @@
        </ul>
       </div>
     </footer>
-  </div>
  </body>
 </html>
