@@ -1,4 +1,7 @@
 /* Основные стили*/
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: sans-serif;
   font-size: 16px;
@@ -28,9 +31,16 @@ h2 {
 .form-pdg-10px {
  padding: 10px;
 }
-/*.grey-bc {
+
+/* Стили фонового цвета */
+.white-bgc {
+  background-color: #fff
+}
+.dark-bgc {
+    background-color: #303846;
+}
+/*.grey-bgc {
   background-color: #f7f7f7;
-  padding: 0 260px;
 }*/
 main section:nth-child(2n+3) {
   background-color: #f7f7f7;
@@ -53,24 +63,30 @@ a:link {
   text-decoration: none;
 }
 
+/* Стили общих изображений */
+.bg-space {
+  background-image: url(images/banner.png);
+  background-position: center;
+  background-size: cover;
+}
+
 /* Стили для header */
-.main-header-disloc {
-  position: fixed;
+.header {
   height: 60px;
   padding: 5px 20px;
-  top: 0;
-  left: 0;
-  right: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.header-fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
 .header-font {
   font-weight: bold;
   font-size: 1.1em;
-}
-.header-bcolor {
-  background-color: #fff;
 }
 .logo-disloc img {
   width: 32px;
@@ -91,59 +107,52 @@ a:link {
 
 /* Стили основного блока */
 .container-mt {
-  margin-top: 70px;
+  margin-top: 60px;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-align {
+  align-items: center;
+}
+.container-width {
+  width: 1000px;
+}
+.mrg-center {
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center
 }
 
 /* Стили баннера */
-.banner-disloc {
-  width: 100%;
-}
-.ban-content-disloc {
-  width: 1000px;
-  margin: 0 auto;
-  text-align: center;
-}
 .banner-font {
-    color: #fff;
-    font-size: 1.3em;
+  color: #fff;
+  font-size: 1.3em;
 }
-.banner-backimg {
-  background-image: url(images/banner.png);
-  background-position: center;
-  background-size: cover;
-}
-.banner-disloc img {
+.logo-banner {
   width: 200px;
   height: 200px;
 }
-.banner-disloc .m-tb {
+.m-tb {
   margin: 10px 0 30px 0;
 }
 
 /* Стили основного контента */
-.main-info {
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+.container-width .info-width-withoutimg {
+  width: 30%;
 }
-.main-info-withimg {
-    align-items: center;
+.container-width .info-width-withimg {
+  width: 45%;
 }
-.main-info .info-disloc-cont-withoutimg {
- width: 30%;
-}
-.main-info .info-disloc-cont-withimg {
- width: 45%;
-}
-.main-info-withimg img {
+.img-width {
   width: 30%;
 }
 
 /* Стили для формы */
-.form-disloc {
+.form-width {
   width: 50%;
-  margin: 0 auto;
 }
 .form-color {
   color: #09d3ac;
@@ -170,7 +179,7 @@ a:link {
 .form-databorder {
   border: 1px solid #ccc;
   border-radius: 5px;
-  height: 25px;
+  height: 27px;
   width: 195px;
 }
 .dropped-menu {
@@ -190,16 +199,6 @@ a:link {
 }
 
 /* Стили для footer */
-.foot-flexcontainer {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 1000px;
-  margin: 0 auto;
-}
-.dark-bc {
-    background-color: #303846;
-}
 .logo-text {
   font-weight: bold;
   font-size: 1em;
