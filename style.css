@@ -6,6 +6,7 @@
   --black: #000;
   --light-grey: #ccc;
   --turquoise: #09d3ac;
+  --dark-grey: #303846;
 }
 :root {
   --height-header: 60px;
@@ -18,7 +19,7 @@
 body {
   font-family: sans-serif;
   font-size: 16px;
-  color: #303846;
+  color: var(--dark-grey);
   line-height: 1.5;
   margin: 0;
 }
