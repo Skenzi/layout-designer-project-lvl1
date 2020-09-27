@@ -61,6 +61,10 @@ h2 {
 .font-weight-bold {
   font-weight: bold;
 }
+/* Стили ссылок */
+a:link {
+  text-decoration: none;
+}
 
 /* Общие cтили кнопок */
 .btn {
