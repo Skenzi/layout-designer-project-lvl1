@@ -57,12 +57,6 @@ h2 {
   background-color: var(--grey);
 }
 
-/* Стили для ссылок */
-a:link {
-  color: var(--white);
-  text-decoration: none;
-}
-
 /* Общие стили шрифтов */
 .font-weight-bold {
   font-weight: bold;
@@ -74,6 +68,8 @@ a:link {
   border: 2px solid var(--white);
   border-radius: 10px;
   padding: 15px;
+  color: var(--white);
+  text-decoration: none;
 }
 
 /* Стили фоновых изображений */
@@ -128,10 +124,8 @@ a:link {
 .flex-align {
   align-items: center;
 }
-.container-width {
+.container {
   width: 1000px;
-}
-.mrg-center {
   margin: 0 auto;
 }
 .text-center {
@@ -160,8 +154,9 @@ a:link {
 }
 
 /* Стили для формы */
-.w-50 {
+.form-container {
   width: 50%;
+  margin: 0 auto;
 }
 .form-color {
   color: var(--turquoise);
