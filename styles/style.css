@@ -104,7 +104,7 @@ a:link {
 
 /* Стили фоновых изображений */
 .bg-space {
-  background-image: url(images/banner.png);
+  background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
 }
@@ -196,13 +196,13 @@ a:link {
 .mrg-10-0 {
   margin: 10px 0;
 }
-.form-databorder {
+.user-info-box {
   border: 1px solid var(--light-grey);
   border-radius: 5px;
   height: 27px;
   width: 195px;
 }
-.dropped-menu {
+.dropped-select {
   width: 200px;
   height: 35px;
 }
@@ -264,7 +264,7 @@ a:link {
     display: block;
     width: 50px;
     height: 50px;
-    background-image: url(images/menu.svg);
+    background-image: url(../images/menu.svg);
     background-size: cover;
     cursor: pointer;
     content: "";
@@ -334,7 +334,16 @@ a:link {
   .form-font-size {
     font-size: 1.1em;
   }
+  .dropped-select {
+    width: 150px;
+  }
 }
+@media screen and (max-width: 440px) {
+  .user-info-box {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .main-title {
     font-size: 1.4em;
