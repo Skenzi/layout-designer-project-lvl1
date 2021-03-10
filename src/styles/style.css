@@ -1,0 +1,229 @@
+:root {
+    --primary: #fe8a02;
+    --primary-dark: #42413c;
+    --dark: #2a2626;
+    --half-opacity-dark: #908d8b;
+    --white: #fff;
+    --half-opacity-white: #d7ccc9;
+    --ligth: #f5f4f0;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+::placeholder {
+    color: #757575;
+    opacity: 0.2;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Neucha';
+    src: url('../fonts/Neucha-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: var(--dark);
+    line-height: 1.6;
+    font-family: 'Open Sans';
+}
+h1, h2, h3 {
+    line-height: 1.2;
+    font-family: 'Neucha'
+}
+h1 {
+    font-size: 72px;
+}
+h2 {
+    font-size: 60px;
+}
+h3 {
+    font-size: 34px;
+}
+.subtitle {
+    font-size: 24px;
+}
+
+.orange-color {
+    color: var(--primary);
+}
+.dark-color {
+    color: var(--dark);
+}
+.white-color {
+    color: var(--white);
+}
+.white-50 {
+    color: var(--half-opacity-white);
+}
+.brown-color {
+    color: var(--brown);
+}
+.bg-primary::before {
+    content: url('../images/background.png');
+    position: absolute;
+    background-size: cover;
+    opacity: 10%;
+    background-repeat: no-repeat;
+}
+.bg-white {
+    background-color: var(--white);
+}
+.bg-dark {
+    background-color: var(--dark);
+}
+.bg-brown {
+    background-color: var(--brown);
+}
+.bg-primary-dark {
+    background-color: var(--primary-dark);
+}
+.t-s-12 {
+    font-size: 12px;
+}
+.t-s-14 {
+    font-size: 14px;
+}
+.t-s-18 {
+    font-size: 18px;
+}
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px 30px;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 100px 0;
+    position: relative;
+}
+.text-center {
+    text-align: center;
+}
+.column-2 {
+    column-count: 2;
+    column-gap: 30px;
+}
+.column-span {
+    column-span: all;
+}
+.break-before {
+    break-before: column;
+}
+.m-t-185 {
+    margin-top: 185px;
+}
+.m-b-16 {
+    margin-bottom: 16px;
+}
+.m-b-20 {
+    margin-bottom: 20px;
+}
+.m-t-9 {
+    margin-top: 9px;
+}
+.m-t-40 {
+    margin-top: 40px;
+}
+.m-b-30 {
+    margin-bottom: 30px;
+}
+.m-b-100 {
+    margin-bottom: 100px;
+}
+.p-t-200 {
+    padding-top: 200px;
+}
+.main-img {
+    position: absolute;
+    right: -270px;
+    top: 55px;
+    height: 525px;
+    z-index: -1;
+}
+.section-img {
+    height: 434px;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+.btn {
+    background-color: var(--primary);
+    font-weight: bold;
+    text-align: center;
+    color: var(--white);
+    text-decoration: none;
+}
+.btn-main {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 12px 24px;
+}
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    margin-bottom: -200px;
+}
+.nav-element {
+    flex: 0 1 350px;
+    display: block;
+    color: var(--dark);
+    text-decoration: none;
+}
+.nav-element:nth-child(1n + 2) {
+    background-color: var(--white);
+    padding: 24px;
+}
+.nav-title {
+    font-size: 52px;
+    font-family: 'Neucha';
+    font-weight: 400;
+}
+.nav-element-number {
+    margin-bottom: 40px;
+    font-family: 'Neucha';
+    font-size: 64px;
+}
+.element-title {
+    margin-bottom: 16px;
+    color: var(--primary);
+}
+.describe-box {
+    flex: 1;
+}
+.subscribe-container {
+    padding: 55px;
+    margin-bottom: 76px;
+    align-items: center;
+    gap: 122px;
+}
+.email-box {
+    padding-left: 15px;
+    height: 50px;
+    width: 423px;
+    border: none;
+}
+.form-email {
+    position: relative;
+}
+.btn-send {
+    width: 70px;
+    height: 50px;
+    position: absolute;
+    border: none;
+}
