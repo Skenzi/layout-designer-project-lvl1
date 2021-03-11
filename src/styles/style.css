@@ -61,7 +61,7 @@ h3 {
     font-size: 24px;
 }
 
-.orange-color {
+.primary-color {
     color: var(--primary);
 }
 .dark-color {
@@ -170,6 +170,9 @@ h3 {
     color: var(--white);
     text-decoration: none;
 }
+.btn:hover {
+    background-color: #EA7600;
+}
 .btn-main {
     display: inline-block;
     text-transform: uppercase;
@@ -203,6 +206,13 @@ h3 {
     margin-bottom: 16px;
     color: var(--primary);
 }
+.nav-element:nth-child(1n + 2):hover {
+    background-color: var(--primary);
+    color: var(--white);
+}
+.nav-element:nth-child(1n + 2):hover .element-title{
+    color: var(--white);
+}
 .describe-box {
     flex: 1;
 }
@@ -226,4 +236,5 @@ h3 {
     height: 50px;
     position: absolute;
     border: none;
+    cursor: pointer;
 }
