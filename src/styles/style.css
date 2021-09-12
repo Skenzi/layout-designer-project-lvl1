@@ -99,8 +99,13 @@ h3 {
 .brown-color {
     color: var(--brown);
 }
+.bg-primary {
+    overflow: hidden;
+}
 .bg-primary::before {
     content: url('../images/background.png');
+    overflow: hidden;
+    width: 100%;
     position: absolute;
     background-size: cover;
     opacity: 10%;
@@ -146,6 +151,7 @@ h3 {
     column-gap: 30px;
 }
 .column-span {
+    padding: 0 5px;
     column-span: all;
 }
 .break-before {
