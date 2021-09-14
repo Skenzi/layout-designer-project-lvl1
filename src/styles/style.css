@@ -43,6 +43,7 @@ body {
     color: var(--dark);
     line-height: 1.6;
     font-family: 'Open Sans';
+    line-height: 160%;
 }
 h1, h2, h3 {
     line-height: 1.2;
@@ -50,12 +51,15 @@ h1, h2, h3 {
 }
 h1 {
     font-size: 72px;
+    font-weight: 400;
 }
 h2 {
     font-size: 60px;
+    font-weight: 400;
 }
 h3 {
     font-size: 34px;
+    font-weight: 400;
 }
 .m-t-185 {
     margin-top: 185px;
@@ -77,9 +81,6 @@ h3 {
 }
 .m-b-100 {
     margin-bottom: 100px;
-}
-.p-t-200 {
-    padding-top: 200px;
 }
 .subtitle {
     font-size: 24px;
@@ -120,6 +121,9 @@ h3 {
 .bg-brown {
     background-color: var(--brown);
 }
+.bg-brown > .container {
+    color: var(--white);
+}
 .bg-primary-dark {
     background-color: var(--primary-dark);
 }
@@ -141,6 +145,9 @@ h3 {
     padding: 100px 165px;
     position: relative;
 }
+.nav {
+    padding-top: 200px;
+}
 .text-center {
     text-align: center;
 }
@@ -160,11 +167,21 @@ h3 {
     right: -270px;
     top: 55px;
     height: 525px;
-    z-index: -1;
 }
 .section-img {
     height: 434px;
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.15);
+}
+.info-content-title {
+    background-color: var(--brown);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--white);
+}
+.bg-brown .info-content-title {
+    background-color: var(--white);
+    color: var(--brown);
 }
 .btn {
     background-color: var(--primary);
@@ -204,6 +221,7 @@ h3 {
     margin-bottom: 40px;
     font-family: 'Neucha';
     font-size: 64px;
+    line-height: 70.5px;
 }
 .element-title {
     margin-bottom: 16px;
@@ -216,7 +234,7 @@ h3 {
 .nav-element:nth-child(1n + 2):hover .element-title{
     color: var(--white);
 }
-.describe-box {
+.title-content {
     flex: 1;
 }
 .subscribe-container {
