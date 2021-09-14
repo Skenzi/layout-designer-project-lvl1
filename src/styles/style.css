@@ -60,8 +60,8 @@ h3 {
     font-size: 34px;
     font-weight: 400;
 }
-.m-t-185 {
-    margin-top: 185px;
+.m-t-200 {
+    margin-top: 200px;
 }
 .m-b-16 {
     margin-bottom: 16px;
@@ -163,9 +163,10 @@ h3 {
 }
 .main-img {
     position: absolute;
-    right: -270px;
+    right: -105px;
     top: 55px;
     height: 525px;
+    z-index: -1;
 }
 .section-img {
     height: 434px;
